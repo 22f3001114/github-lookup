@@ -1,5 +1,5 @@
 export default function handler(req, res) {
-  const secretExpected = "yourSecretHere"; // <-- Change this to your actual secret!
+  const secretExpected = "Blobbing123"; // <-- Change this to your actual secret!
 
   if (req.method === 'POST') {
     const { repoUrl, secret } = req.body || {};
