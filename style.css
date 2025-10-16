@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f7fb;
+  padding: 20px;
+  max-width: 400px;
+  margin: auto;
+}
+
+form {
+  margin-bottom: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 8px;
+  font-size: 14px;
+}
+
+button {
+  padding: 9px 16px;
+  font-size: 14px;
+  background: #24292f;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+#github-status {
+  margin-bottom: 16px;
+  font-weight: bold;
+  color: #2b7bb9;
+}
+
+#github-account-age {
+  font-size: 16px;
+  background: #e3ecfa;
+  padding: 10px;
+  border-radius: 5px;
+}
